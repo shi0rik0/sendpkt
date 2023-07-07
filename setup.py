@@ -4,7 +4,7 @@ import pkg_resources
 from setuptools import find_packages, setup
 
 setup(
-    name="hello_world",
+    name="sendpkt",
     version="0.0.1",
     packages=find_packages(),
     install_requires=[
@@ -15,7 +15,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "hello-world = hello_world.main:main",
+            "sendpkt = sendpkt.main:main",
         ]
     },
 )
